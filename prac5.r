@@ -1,0 +1,8 @@
+library("e1071")
+mydata=read_excel("C:\\Users\\LENOVO\\Documents\\prac4.xlsx")
+print(mydata)
+print(sd(mydata$salary))
+print(var(mydata$salary))
+print(cov(mydata$No,mydata$salary))
+print(skewness(mydata$salary))
+plot(mydata$salary)
